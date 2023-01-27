@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Abarrotera.Pages.MainMenu.pieDePagina">
+  <ContentView.Content>
+      <StackLayout>
+            <Frame Padding="20" BackgroundColor="#4A2C65">
+                <Label Text="Footer" x:Name="Usr" HorizontalTextAlignment="Center"/>
+            </Frame>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

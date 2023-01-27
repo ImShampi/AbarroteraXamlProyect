@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Abarrotera.Pages.MainMenu.Encabezado">
+  <ContentView.Content>
+        <Frame BackgroundColor="#4A2C65" Padding="20" CornerRadius="5">
+            <Label Text="Abarrotes"  HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+  </ContentView.Content>
+</ContentView>

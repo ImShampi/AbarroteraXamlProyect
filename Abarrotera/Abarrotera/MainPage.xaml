@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Abarrotera.MainPage">
+
+    <StackLayout BackgroundColor="#23182C">
+
+        <Frame BackgroundColor="LightYellow" Margin="20" Padding="20" CornerRadius="20">
+            <Label Text="Aun no hay una base de datos conectada, Solo presione el boton de inicio" TextColor="Gray" HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <StackLayout Orientation="Vertical">
+            <Label Text="Ingrese sus datos" HorizontalTextAlignment="Center" TextColor="DarkGray"/>
+            <Frame CornerRadius="20" Margin="20" BackgroundColor="#4A2C65">
+                <Entry x:Name="usrName" Placeholder="Usuario"/>
+            </Frame>
+            <Frame CornerRadius="20" Margin="20" BackgroundColor="#4A2C65">
+                <Entry x:Name="usrPsw" IsPassword="True" Placeholder="Contraseña"/>
+            </Frame>
+        </StackLayout>
+
+        <Button Text="Iniciar App" TextColor="White" BackgroundColor="#C994E8" Padding="24" Margin="55" CornerRadius="15" Clicked="NavMenu">
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>
